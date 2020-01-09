@@ -1,0 +1,227 @@
+<html lang="en" style="font-size: 42.6667px;">
+<head id="head">
+    <meta charset="utf-8">
+    <title>青蛙社区</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
+    <meta name="applicable-device" content="pc,mobile">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,Chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <script type="text/javascript" charset="UTF-8" src="//res.cdn.openinstall.io/openinstall.js"></script>
+    
+    <!-- <link rel="stylesheet" href="css/index.css"> -->
+    <!-- <script src="js/index.js"></script> -->
+    <style>
+        blockquote, body, dd, div, dl, dt, fieldset, form, h1, h2, h3, h4, h5, h6, input, li, ol, p, pre, td, textarea, th, ul {margin: 0;padding: 0}
+        table {border-collapse: collapse;border-spacing: 0}
+        fieldset, img {border: 0}
+        address, caption, cite, code, dfn, em, strong, th, var {font-style: normal;font-weight: 400}
+        li, ol, ul {list-style: none}
+        dd, dt {margin: 0;padding: 0}
+        caption, th {text-align: left}
+        h1, h2, h3, h4, h5, h6 {font-size: 100%;font-weight: 400}
+        q:after, q:before {content: ''}
+        a, button, input, textarea {-webkit-tap-highlight-color: transparent;text-decoration: none;}
+        body {margin: 0 auto;font-family: 'PingFang SC';}
+        .main {width: 100%}
+        .center{text-align: center;}
+        .div_conten{background: url(images/url.jpg);background-size: 100% 100%;width: 100%;min-height: 100%;position: relative;}
+        
+        .div_top_one{color: #fff;font-size: .46rem;padding-top: .3rem;}
+        .div_top_one .p_text_xiao{font-size: .34rem;padding-top: .16rem;}
+        .div_img .img_boot{width: 3.68rem;height: 5.52rem;float: left;margin: .4rem 0 0 .4rem;}
+        .div_img .img_top{width: 4rem;height: 6rem;position: absolute;top: 3.68rem;right: .4rem;}
+        .div_img .p_text_fons{font-size: .34rem;color: #fff;position: relative;top: .88rem;}
+        .div_img .p_text_anch{clear: both;font-size: .34rem;color: #fff;text-align: left;padding-top: .48rem;padding-left: .66rem;line-height: .48rem;}
+        .div_url_over .img_code{width: 2rem;height: 2rem;border: 4px solid #fff;margin:.4rem 0 0 .6rem;}
+        /**/
+        .div_right_xz{font-size: .42rem;color: #fff;float: right;margin-right: .6rem;margin-top: -2.1rem;}
+        /*.div_right_xz p{display: none;}*/
+        .div_right_xz .span_xz_a{display: inline-block;width: 3.4rem;height: .88rem;line-height: .88rem;text-align: center;border-radius: 30px;background:linear-gradient(180deg,rgba(251,144,255,1) 0%,rgba(254,19,100,1) 100%);box-shadow:0px 2px 4px 0px rgba(0,0,0,0.5);}
+        .div_right_xz .p_mar_top{margin-top: .28rem;}
+        .div_right_xz .img_ios_az{width: .38rem;transform: rotate(270deg);position: relative;top: 3px;margin-right: .2rem;}
+
+        #qrcode{display: none;}
+        #qrcode canvas{width: 100%;}
+        .div_alt_wx{position: fixed;top:0;width: 100%;height: 100vh;background: rgba(0,0,0,0.3);display: none;}
+        .div_alt_wx img{width: 80px;float: right;margin: 30px 30px;}
+        .div_alt_wx .div_share_wx p{clear: both;font-size: 18px;text-align: center;color: #fff;}
+        .div_alt_wx .span_back{background: #000;padding:10px;}
+        /*#imgDiv{}*/
+        /*#imgDiv{display: none;}*/
+        #imgDiv img{width: 100%;}
+        .p_titl_ios{padding:.9rem  0 .2rem 0;font-weight:400;text-align: center;color: #fff;margin-top: -.6rem;font-size: .34rem;}
+        .img_jt{position: relative;width: 22px;transform: rotate(-90deg);top: .1rem;margin-right: 6px;}
+        .spanBut{display: inline-block;width: 160px;height: 30px;line-height: 31px;color: #fff;font-weight: 600;background:#FF008D;border-radius:22px;}
+        
+        .iosShow{display: none;}
+        .section{font-size: .34rem;}
+        .section .div_back_ios{background: #fff;color: #FF008D;padding-bottom: .64rem;}
+        .div_back_ios p.center{padding:.4rem 0;}
+        .div_back_ios .p_img_16{padding:0 .32rem;}
+        .div_back_ios .p_img_10{padding:0 .2rem;}
+        .div_back_ios .Apadd{padding:.4rem .32rem .2rem;}
+        .div_back_ios .AtopBotpad{padding:.4rem .32rem;}
+        .section  .div_back_ios .p_xiazaiA{position: absolute;margin: 0 auto;left: 50%;transform: translate(-50%);padding: .2rem 0 0;}
+        
+    </style>
+
+</head>
+<body>
+<div class="div_url_over">
+    <div class="div_conten center">
+        <div class="div_top_one">
+            <p>青蛙主播</p>
+            <p class="p_text_xiao">扫码认证主播，即享高额分成</p>
+        </div>
+        <div class="div_img">
+            <img class="img_boot" src="images/botto.jpg" alt="">
+            <p class="p_text_fons">加入青蛙直播平台<br/>百万用户在线开聊</p>
+            <img class="img_top" src="images/top.jpg" alt="">
+            <p class="p_text_anch">邀请主播加入<br/>更有高额分成<br/>等你来拿</p>
+        </div>
+        <div>
+            <p>
+                <div id="qrcode" class="img_code"></div>
+                <div id="imgDiv" class="img_code"></div>
+            </p>
+        </div>
+        <div class="div_right_xz">
+            <p><span id="span_text_and" class="span_xz_a">android下载</span></p>
+            <p><span id="span_text_ios" onclick="AltIos()" class="span_xz_a">ios下载</span></p>
+            <p class="p_mar_top iosShow" onclick="AscriptTop()"><img class="img_ios_az" src="images/jiant.png" alt=""><span>iOS安装指引</span></p>
+        </div>
+    </div>
+    <section class="section iosShow">
+        <div class="div_back_ios">
+            <p class="center" style="padding-bottom: 0;">—— 第一步、点击下载 ——</p>
+            <p class="center p_xiazaiA"><span onclick="AltIos()" id="downloIos" class="spanBut">立即下载</span></p>
+            <p class="p_img_16" style="margin-top: 1rem;"><img class="main" src="images/ios-one.png" alt=""></p>
+            <p class="center">第二步、打开设置，选择描述文件与设备管理</p>
+            <p class="p_img_10"><img class="main" src="images/ios-two.png" alt=""></p>
+            <p class="Apadd"><img class="main" src="images/ioswo1.png" alt=""></p>
+            <p class="p_img_16"><img class="main" src="images/ioswo.png" alt=""></p>
+            <p class="center">—— 第三步、点击描述文件，选择信任 ——</p>
+            <p class="p_img_16"><img class="main" src="images/ios-three.png" alt=""></p>
+            <p class="AtopBotpad"><img class="main" src="images/ios-three1.png" alt=""></p>
+            <p class="p_img_16"><img class="main" src="images/ios-three2.png" alt=""></p>
+            <p class="center">—— 第四步、安装完成返回桌面打开 ——</p>
+            <p class="p_img_16"><img class="main" src="images/iosfour.png" alt=""></p>
+        </div>
+    </section>
+    <div class="div_alt_wx">
+        <div class="div_share_wx">
+            <img src="images/share-wx.png" alt="">
+            <p><span class="span_back">点击右上角，选择浏览器打开</span></p>
+        </div>
+    </div>
+    <!-- </div> -->
+</div>
+<script src="js/jquery.min.js"></script>
+<script src="js/clipboard.min.js"></script>
+<script src="js/jquery.qrcode.min.js"></script>
+<script>
+    window.onload = function() {
+        // 阻止双击放大
+        var lastTouchEnd = 0;
+        document.addEventListener('touchend', function(event) {
+            var now = (new Date()).getTime();
+            if (now - lastTouchEnd <= 300) {
+                event.preventDefault();
+            }
+            lastTouchEnd = now;
+        }, false);
+        Axai()
+        isQQAPP()
+
+    }
+    $('#qrcode').qrcode(window.location.href); //生成二维吗
+    //从canvas中提取图片image
+    function convertCanvasToImage(canvas) {
+        //新Image对象，可以理解为DOM
+        var image = new Image();
+        // canvas.toDataURL 返回的是一串Base64编码的URL，当然,浏览器自己肯定支持
+        // 指定格式PNG
+        image.src = canvas.toDataURL("image/png");
+        return image;
+    }
+
+    var mycanvas1=document.getElementsByTagName('canvas')[0];
+
+    //将转换后的img标签插入到html中
+    var img = convertCanvasToImage(mycanvas1);
+    $('#imgDiv').append(img);//imgDiv表示你要插入的容器id
+
+    function AscriptTop() {
+        console.log(191)
+        window.scrollTo(400,400)
+    }
+    function AltIos() {
+        alert('即将上线，敬请期待')
+    }
+    function Axai(typ) {
+        var ua = navigator.userAgent.toLowerCase();
+        if (/android/.test(ua)) {
+            document.documentElement.style.fontSize = document.body.clientWidth / 7.5 + 'px';
+            $('.iosShow,#span_text_ios').hide()
+            $('#span_text_and').show()
+            $('#span_text_and').css('margin-top','.5rem')
+            console.log(201)
+        }else if (/iphone|ipad|ipod/.test(ua)){
+            $('.iosShow,#span_text_ios').show()
+            $('#span_text_and').hide()
+            $('#span_text_and').css('margin-top','0rem')
+            document.documentElement.style.fontSize = document.body.clientWidth / 7.5 + 'px';
+        }else{
+            $('.iosShow').show()
+            document.documentElement.style.fontSize = '90px';
+        }
+    }
+
+    function isQQAPP(){
+        var ua = navigator.userAgent.toLowerCase();
+        var isIosQQ = ( /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) && /\sQQ/i.test(navigator.userAgent));
+        var isAndroidQQ = ( /(Android)/i.test(navigator.userAgent) && /MQQBrowser/i.test(navigator.userAgent) && /\sQQ/i.test((navigator.userAgent).split('MQQBrowser')));
+        if(isIosQQ || isAndroidQQ){
+            $('.div_alt_wx').show()
+        }else if(ua.match(/MicroMessenger/i)=="micromessenger") {
+            $('.div_alt_wx').show()
+            return true;
+        }else{
+            $('.div_alt_wx').hide()
+        }
+    }
+</script>
+
+
+<script type="text/javascript">
+    /*web页面向app传递的json数据(json string/js Object)，应用被拉起或是首次安装时，通过相应的android/ios api可以获取此数据*/
+    var data = OpenInstall.parseUrlParams();//openinstall.js中提供的工具函数，解析url中的所有查询参数
+    new OpenInstall({
+        appKey : "q83hjx", // true 
+        /*可选参数，自定义android平台的apk下载文件名；个别andriod浏览器下载时，中文文件名显示乱码，请慎用中文文件名！*/
+        // apkFileName : 'ldemo.apk',
+        preferWakeup:false,
+        /*自定义遮罩的html*/
+        /*mask:function(){
+         return "<div id='openinstall_shadow' style='position:fixed;left:0;top:0;background:rgba(0,255,0,0.5);filter:alpha(opacity=50);width:100%;height:100%;z-index:10000;'></div>"
+        },*/
+        onready : function() {
+            var m = this
+            var button = document.getElementById("span_text_and");
+            // var button = document.getElementById("downloadButton");
+            // var butIos = document.getElementById("downloIos"); //   
+            button.style.visibility = "visible";
+            /*在app已安装的情况尝试拉起app*/
+            m.schemeWakeup();
+            /*用户点击某个按钮时(假定按钮id为downloadButton)，安装app*/
+            button.onclick = function() {
+                m.wakeupOrInstall();
+                return false;
+            }
+        }
+    }, data);
+</script>
+
+</body>
+</html>
